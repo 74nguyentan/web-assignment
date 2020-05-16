@@ -1,0 +1,509 @@
+@charset "utf-8";
+/* menu top */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contro{    
+	margin: 0px;
+    width: 1350px;
+}
+.contro2 {
+    padding: 0px 90px 0px 90px;
+}
+
+.contro2>header {
+    background-image: url("picture/biaAss11.jpg");
+    background-size: 100% 100%;
+    padding-bottom: 11%;
+	position: relative;
+
+}
+.company-info {
+    position: relative;
+    top: 25px;
+    left: 50px;
+    bottom: 10px;
+    color: white;
+    text-shadow: 0 0 5px orangered;
+}
+.company-info>h1 {
+    position: relative;
+    left: 25px;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Times New Roman";
+    font-size: 35px;
+}
+.company-info>strong {
+    position: relative;
+    left: 55px;
+    border-top: 1px dotted white;
+    font-size: larger;
+    letter-spacing: 3px;
+}
+
+.top {
+    overflow: hidden;
+    background-color: royalblue;
+}
+.top a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 6px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.top a:hover {
+    background-color: white;
+    color: blue;
+    Text-decoration: underline;
+}
+.top a.trangchu {
+    background-color: green;
+    color: white;
+}
+
+a.dangnhap {
+    float: right;
+}
+.bia img {
+    width: 1170px;
+    height: 200px;
+}
+/* menu bot */
+
+.bot {
+    overflow: hidden;
+    background-color: royalblue;
+}
+.hmenu{
+	margin: 0px;
+	padding: 0px;
+	height: 28px;
+	list-style: none;
+	background-color: royalblue;
+    overflow: hidden;
+
+}
+.hmenu >li> a {
+	display: block;
+	float: left;
+	text-decoration: none;
+    color: white;
+	text-align: center;
+	padding: 5px 19.5px;
+    font-size: 17px;
+}
+
+.hmenu >li> a:hover {
+    background-color: white;
+    color: blue;
+    Text-decoration: underline;
+}
+
+.hmenu >li> a:visited {
+    background-color: white;
+}
+/* menu con tin tức */
+.hmenu >li:hover>.TTmenu{
+	display: block;
+	z-index: 1;
+}
+.bot ul ul.TTmenu {
+    position: absolute;
+	left: 235.5px;
+    display: none;
+    padding:  5px;
+    list-style: none;
+    width: 220px;
+    background-color: white;
+    box-shadow: 0px 3px 8px gray;
+	border: #151515;
+	font-size: 14px;
+
+	
+	margin-top: 28.5px;
+	border-radius: 5px;
+	
+	border: solid 3px royalblue ;
+    moz-border-radius-topleft: 0px;
+    moz-border-radius-topright:0px;
+    moz-border-radius-bottomleft:16px;
+    moz-border-radius-bottomright:16px;
+    webkit-border-top-left-radius:0px;
+    webkit-border-top-right-radius:0px;
+    webkit-border-bottom-left-radius:16px;
+    webkit-border-bottom-right-radius:16px;
+    border-top-left-radius:0px;
+    border-top-right-radius:0px;
+    border-bottom-left-radius:16px;
+    border-bottom-right-radius:16px;
+	border-top: none;
+}
+.bot ul ul.TTmenu a {
+    display: block;
+    line-height: 30px;
+    text-decoration: none;
+    font-size: larger;
+    padding: 0px 5px;
+	border-bottom: 1px dotted gray;
+}
+.TTmenu>li>a:hover{
+	background-color: royalblue;
+	color: white;
+	font-weight: bolder;
+	
+}
+/* hover the a */
+.TTmenu>li>a.vien-a:hover{
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+/*menu con hoạt động */
+.hmenu >li:hover>.subMenu{
+	display: block;
+	z-index: 1;
+}
+.bot ul ul.subMenu {
+    position: absolute;
+	left: 409px;
+    display: none;
+    padding: 5px;
+    list-style: none;
+    width: 240px;
+    background-color: white;
+    box-shadow: 0px 3px 8px gray;
+	border: #151515;
+	font-size: 14px;
+		
+
+	margin-top: 28.5px;
+	border-radius: 5px;
+	
+	border:solid 3px royalblue ;
+    moz-border-radius-topleft: 0px;
+    moz-border-radius-topright:0px;
+    moz-border-radius-bottomleft:16px;
+    moz-border-radius-bottomright:16px;
+    webkit-border-top-left-radius:0px;
+    webkit-border-top-right-radius:0px;
+    webkit-border-bottom-left-radius:16px;
+    webkit-border-bottom-right-radius:16px;
+    border-top-left-radius:0px;
+    border-top-right-radius:0px;
+    border-bottom-left-radius:16px;
+    border-bottom-right-radius:16px;
+	border-top: none;
+}
+.bot ul ul.subMenu a {
+    display: block;
+    line-height: 30px;
+    text-decoration: none;
+    font-size: larger;
+    padding: 0px 5px;
+	border-bottom: 1px dotted gray;
+}
+.subMenu>li>a:hover{
+	background-color: royalblue;
+	color: white;
+	font-weight: bolder;
+}
+/* hover the a */
+.subMenu>li>a.vien-a:hover{
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+/* menu con công văn */
+.hmenu >li:hover>.CVmenu{
+	display: block;
+	z-index: 1;
+}
+.bot ul ul.CVmenu {
+    position: absolute;
+	left: 528.5px;
+    display: none;
+    padding: 5px;
+    list-style: none;
+    width: 230px;
+    background-color: white;
+    box-shadow: 0px 3px 8px gray;
+	border: #151515;
+	font-size: 14px;
+
+	
+	margin-top: 28.5px;
+	border-radius: 5px;
+	
+	border:solid 3px royalblue ;
+    moz-border-radius-topleft: 0px;
+    moz-border-radius-topright:0px;
+    moz-border-radius-bottomleft:16px;
+    moz-border-radius-bottomright:16px;
+    webkit-border-top-left-radius:0px;
+    webkit-border-top-right-radius:0px;
+    webkit-border-bottom-left-radius:16px;
+    webkit-border-bottom-right-radius:16px;
+    border-top-left-radius:0px;
+    border-top-right-radius:0px;
+    border-bottom-left-radius:16px;
+    border-bottom-right-radius:16px;
+	border-top: none;
+}
+.bot ul ul.CVmenu a {
+    display: block;
+    line-height: 30px;
+    text-decoration: none;
+    font-size: larger;
+    padding: 0px 5px;
+	border-bottom: 1px dotted gray;
+}
+.CVmenu>li>a:hover{
+	background-color: royalblue;
+	color: white;
+	font-weight: bolder;
+}
+/* hover the a */
+.CVmenu>li>a.vien-a:hover{
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+/* menu con tài nguyên */
+.hmenu >li:hover>.TNmenu{
+	display: block;
+	z-index: 1;
+}
+.bot ul ul.TNmenu {
+    position: absolute;
+	left: 724px;
+    display: none;
+    padding: 5px;
+    list-style: none;
+    width: 220px;
+    background-color: white;
+    box-shadow: 0px 3px 8px gray;
+	border: #151515;
+	font-size: 14px;
+
+		
+	margin-top: 28.5px;
+	border-radius: 5px;
+	
+	border:solid 3px royalblue ;
+    moz-border-radius-topleft: 0px;
+    moz-border-radius-topright:0px;
+    moz-border-radius-bottomleft:16px;
+    moz-border-radius-bottomright:16px;
+    webkit-border-top-left-radius:0px;
+    webkit-border-top-right-radius:0px;
+    webkit-border-bottom-left-radius:16px;
+    webkit-border-bottom-right-radius:16px;
+    border-top-left-radius:0px;
+    border-top-right-radius:0px;
+    border-bottom-left-radius:16px;
+    border-bottom-right-radius:16px;
+	border-top: none;
+}
+.bot ul ul.TNmenu a {
+    display: block;
+    line-height: 30px;
+    text-decoration: none;
+    font-size: larger;
+    padding: 0px 5px;
+	border-bottom: 1px dotted gray;
+}
+.TNmenu>li>a:hover{
+	background-color: royalblue;
+	color: white;
+	font-weight: bolder;
+}
+/* hover the a */
+.TNmenu>li>a.vien-a:hover{
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+/* ô tìm kiếm */
+
+.box {
+    margin: auto;
+    width: 0px;
+    height: 0px;
+}
+.container #search {
+    position: absolute;
+    top: 5px;
+    width: 300px;
+    height: 22px;
+    background-color: white;
+    border: none;
+    font-size: 10pt;
+    float: inherit;
+    color: gray;
+    padding-left: 45px;
+    webkit-border-radius: 7px;
+    moz-border-radius: 7px;
+    border-radius: 7px;
+}
+.icon i {
+    position: absolute;
+    top: 9px;
+    margin-left: 15px;
+    z-index: 1;
+    color: gray;
+}
+/* body */
+
+
+article h1 {
+    text-shadow: 11px 8px 4px gray;
+    color: blue;
+}
+
+article {
+    min-height: 400px;
+    width: 75%;
+    float: left;
+}
+.gioithieu{margin-right: 2%;}
+aside {
+    min-height: 400px;
+    width: 25%;
+    float: right;
+		margin-top: 17px;
+
+}
+aside>.clockk {
+    margin-top: 10px;
+}
+aside>.ulBox {
+    background-color: royalblue;
+    min-height: 350px;
+}
+.ultrong {
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 4px;
+}
+.Rmenu{	position: relative;
+	top: -3px; 
+	padding: 0px;
+    margin: 5px;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: 0px 5px 10px black;}
+.ultrong>.Rmenu a{
+	margin-top: 0px;
+	display: block;
+    border-bottom: 1px solid gray;
+    color: blue;
+    text-decoration: none;
+    padding: 8px 10px 8px 10px ;}
+
+.ultrong>.Rmenu a:hover{
+ border-bottom: 1px dotted white;
+ background-color: #1762F9;
+ color: white;
+ font-weight: bold;
+}
+
+.hd {
+	position: relative;
+	top : 7px;
+	left: 30px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+	padding: 0px 5px;
+    padding: 5px;
+    width: 49%;
+	color: blue;
+    font-weight: bold;
+    background-color: white;
+    border: hidden 6px #ffffff;
+    moz-border-radius-topleft: 10px;
+    moz-border-radius-topright: 10px;
+    moz-border-radius-bottomleft: 10px;
+    moz-border-radius-bottomright: 10px;
+    webkit-border-top-left-radius: 10px;
+    webkit-border-top-right-radius: 10px;
+    webkit-border-bottom-left-radius: 10px;
+    webkit-border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+footer {
+    border-top: 5px double orangered;
+    line-height: 40px;
+    background-color: lightcyan;
+    clear: both;
+}
+
+#THPT{
+text-align: center;
+width: 1350px;
+}
+
+#page{ 
+	width: 450px;
+	float: left;
+	margin: 0px 0px 0px 50px;
+	text-align: justify;
+	
+}
+#map{
+	width: 900px;
+	height: 90px;
+	
+}
+#diachi{
+	position: relative;
+	left: 1000px;
+	bottom: 135px;
+	width: 350px;
+	height: 90px;
+}
+/* back to top */
+#back-top {
+    position: fixed;
+    bottom: 20px;
+    right: 1%;
+    z-index: 100;
+
+}
+#back-top img:hover {
+    moz-box-shadow: -2px 2px 40px #ff0000;
+    webkit-box-shadow: -2px 2px 40px #ff0000;
+    box-shadow: -2px 2px 40px #ff0000;
+}
+
+/* Thời Khóa Biểu */
+
+		table{width: 850px;
+		height: 350px;
+		text-align: center;}
+		.th1{
+			width: 150px;
+		}
+		.th2{
+			width: 110px;
+		}
+
+		.tr2{background-color: royalblue;
+        color: white;
+        }
+.tr3{
+	background-color: #63AFFF;
+}
+tr:nth-child(2n+1){
+	background-color: #F1F1F1;
+}
+
+#tkbb {
+	margin-bottom: -1px;
+}

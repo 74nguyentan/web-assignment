@@ -1,0 +1,548 @@
+﻿<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Trường THPT Vĩnh Linh</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous"
+    src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.3&appId=383103739079397&autoLogAppEvents=1">
+  </script>
+  <div class="contro">
+    <nav class="top">
+      <a class="trangchu" href="index.html"> <b><img src="picture/icon_nhak.png" /> Trang chủ</b></a>
+      <a href="giới thiệu.html">Giới Thiệu Về Trường</a>
+      <a href="thoi khoa bieu.html">Thời khóa Biểu</a>
+      <a href="Quản Lí Điểm.html">Quản Lí Điểm</a>
+      <div class="box">
+        <div class="container">
+          <span class="icon"><i class="fa fa-search"></i></span>
+          <input type="search" id="search" placeholder="Search..." />
+        </div>
+      </div>
+      <a href="Đăng Nhập.html" class="dangnhap"><i class="fa fa-sign-in"></i> Đăng Nhập</a>
+    </nav>
+
+    <div class="contro2">
+
+      <header>
+        <div class="company-info">
+          <h1>Sở GD - ĐT Quảng Trị</h1>
+          <strong> Trường THPT Vĩnh Linh </strong>
+        </div>
+      </header>
+
+      <nav class="bot">
+        <ul class="hmenu">
+          <li><a href="Lịch Công Tác.html">Lịch Công Tác</a> </li>
+          <li><a href="Tin Tức - Sự Kiện.html">Tin Tức - Sự Kiện</a>
+            <ul class="TTmenu">
+              <li><a href="#">Thông Báo</a></li>
+              <li><a href="#">Tin Mới Nhất</a></li>
+              <li><a href="#">Tin Nổi Bật</a></li>
+              <li><a href="#">Tin Từ Sở</a></li>
+              <li><a href="#" class="vien-a">Sự Kiện Trong Tháng</a></li>
+            </ul>
+          </li>
+          <li><a href="Hoạt Động.html">Hoạt Động</a>
+            <ul class="subMenu">
+              <li><a href="#">Hoạt Động Gần Đây</a></li>
+              <li><a href="Hoạt Động.html">Hoạt Động Đang Diễn Ra</a></li>
+              <li><a href="#" class="vien-a">Hoạt Động Sắp Tới</a></li>
+            </ul>
+          </li>
+          <li><a href="Công Văn.html">Công Văn - Văn Bản</a>
+            <ul class="CVmenu">
+              <li><a href="#">Văn Bản Hành Chính</a></li>
+              <li><a href="#">Văn Bản Sở GD - ĐT</a></li>
+              <li><a href="#" class="vien-a">Văn Bản HĐND - UBND</a></li>
+            </ul>
+          </li>
+          <li><a href="Tài Nguyên.html">Tài Nguyên</a>
+            <ul class="TNmenu">
+              <li><a href="#">Tài Nguyên Lớp 10</a></li>
+              <li><a href="#">Tài Nguyên Lớp 11</a></li>
+              <li><a href="#">Tài Nguyên Lớp 12</a></li>
+              <li><a href="#">Tài Nguyên Ôn Thi ĐH</a></li>
+              <li><a href="#" class="vien-a">Tài Nguyên Mở Rộng</a></li>
+            </ul>
+          </li>
+          <li><a href="Góp Ý.html"><img src="picture/thu.png" /> Góp Ý</a></li>
+        </ul>
+      </nav>
+      <div>
+
+        <aside>
+          <div class="clockk">
+            <div class="below_body"></div>
+            <div id="clock">Loading...</div>
+          </div>
+          <div class="ulBox">
+            <div class="mau">Hoạt Động Nổi Bật</div>
+            <div class="ultrong">
+              <ul class="Rmenu">
+                <li><a href="#"><img src="picture/pin.png" /> Kỉ Yếu Học Sinh</a></li>
+                <li><a href="#"><img src="picture/pin.png" /> Lễ Tri Ân Trưởng Thành</a></li>
+                <li><a href="#"><img src="picture/pin.png" /> Cuộc Thi Sáng Tạo Trẻ</a></li>
+                <li><a href="#"><img src="picture/pin.png" /> Học Sinh Và ATGT</a></li>
+                <li><a href="#"><img src="picture/pin.png" /> Ngoại Khóa HIV/AIDS</a></li>
+                <li><a href="#"><img src="picture/pin.png" /> Mái Ấm Tình Thương</a></li>
+                <li><a href="#"><img src="picture/pin.png" /> Cuộc Thi Tìm Hiểu Lịch Sử <br />
+                    &ensp;&ensp; 60 Năm THPT Vĩnh Linh</a></li>
+              </ul>
+            </div>
+          </div>
+        </aside>
+
+        <article>
+          <div class="arTop">
+            <marquee id="armanque" direction="left">
+              THI ĐUA LẬP THÀNH TÍCH CHÀO MỪNG KỶ NIỆM 60 NĂM NGÀY THÀNH LẬP TRƯỜNG (15/9/1959-15/9/2019)
+            </marquee>
+          </div>
+
+          <div class="arleft">
+            <h1><i class="fa fa-newspaper-o"></i> Tin Nổi Bật</h1>
+
+            <div class="manquee">
+              <marquee onmouseover="this.stop()" onmouseout="this.start()" scrollamount="3" direction="up" width="280px"
+                height="290px" align="center">
+
+                <p class="list-news-one" itemscope="">
+                  <h4 itemprop="headline"><i class="fa icon fa-arrow-right"></i> <a class="titlee" href="#"
+                      title="Thông báo lịch thi thử lần 2 kỳ thi THPTQG 2019">Thông báo lịch thi thử lần 2 kỳ thi THPTQG
+                      2019 </a></h4>
+                  <div class="time-li"><i class="fa icon fa-calendar"></i>&nbsp;Ngày đăng:<span>20/06/2019</span></div>
+                </p>
+
+                <p class="list-news-one" itemscope="" itemtype="http://schema.org/NewsArticle">
+                  <h4 itemprop="headline"><i class="fa icon fa-arrow-right"></i> <a class="titlee" href="#"
+                      title="Tài liệu ôn tập Rung chuông vàng " biển="" đảo="" quê="" hương="">Tài liệu ôn tập Rung
+                      chuông vàng "Biển đảo quê hương" </a></h4>
+                  <div class="time-li"><i class="fa icon fa-calendar"></i>&nbsp;Ngày đăng:<span>20/06/2019</span></div>
+                </p>
+
+                <p class="list-news-one" itemscope="" itemtype="http://schema.org/NewsArticle">
+                  <h4 itemprop="headline"><i class="fa icon fa-arrow-right"></i> <a class="titlee" href="#"
+                      title="Chương trình học bổng tiếng Nhật">Chương trình học bổng tiếng Nhật </a></h4>
+                  <div class="time-li"><i class="fa icon fa-calendar"></i>&nbsp;Ngày đăng:<span>19/06/2019</span></div>
+                </p>
+
+                <p class="list-news-one" itemscope="" itemtype="http://schema.org/NewsArticle">
+                  <h4 itemprop="headline"><i class="fa icon fa-arrow-right"></i> <a class="titlee" href="#"
+                      title="CHI BỘ TRƯỜNG THPT VĨNH LINH TỔ CHỨC LỄ KẾT NẠP ĐẢNG VIÊN MỚI">CHI BỘ TRƯỜNG THPT VĨNH LINH
+                      TỔ CHỨC LỄ KẾT NẠP ĐẢNG VIÊN MỚI </a></h4>
+                  <div class="time-li"><i class="fa icon fa-calendar"></i>&nbsp;Ngày đăng:<span>19/06/2019</span></div>
+                </p>
+
+                <p class="list-news-one" itemscope="" itemtype="http://schema.org/NewsArticle">
+                  <h4 itemprop="headline"><i class="fa icon fa-arrow-right"></i> <a class="titlee" href="#"
+                      title="Lễ xuất quân tham gia kỳ thi học sinh giỏi cấp Tỉnh năm 2018-2019">Lễ xuất quân tham gia kỳ
+                      thi học sinh giỏi cấp Tỉnh năm 2018-2019 </a></h4>
+                  <div class="time-li"><i class="fa icon fa-calendar"></i>&nbsp;Ngày đăng:<span>19/06/2019</span></div>
+                </p>
+
+                <p class="list-news-one" itemscope="" itemtype="http://schema.org/NewsArticle">
+                  <h4 itemprop="headline"><i class="fa icon fa-arrow-right"></i> <a class="titlee" href="#"
+                      title="HỌC TẬP TRỰC TUYẾN CHUYÊN ĐỀ “CUỘC CÁCH MẠNG CÔNG NGHIỆP LẦN THỨ 4”">HỌC TẬP TRỰC TUYẾN
+                      CHUYÊN ĐỀ “CUỘC CÁCH MẠNG CÔNG NGHIỆP LẦN THỨ 4” </a></h4>
+                  <div class="time-li"><i class="fa icon fa-calendar"></i>&nbsp;Ngày đăng:<span>18/06/2019</span></div>
+                </p>
+
+                <p class="list-news-one" itemscope="" itemtype="http://schema.org/NewsArticle">
+                  <h4 itemprop="headline"><i class="fa icon fa-arrow-right"></i> <a class="titlee" href="#"
+                      title="Hướng dẫn cập nhật thông tin trên trang web của Sở nội vụ">Hướng dẫn cập nhật thông tin
+                      trên trang web của Sở nội vụ </a></h4>
+                  <div class="time-li"><i class="fa icon fa-calendar"></i>&nbsp;Ngày đăng:<span>18/06/2019</span></div>
+                </p>
+
+                <p class="list-news-one" itemscope="" itemtype="http://schema.org/NewsArticle">
+                  <h4 itemprop="headline"><i class="fa icon fa-arrow-right"></i> <a class="titlee" href="#"
+                      title="Trường THPT Vĩnh Linh tiếp tục đạt thành tích xuất sắc tại cuộc thi NCKH dành cho học sinh trung học năm học 2017-2018">Trường
+                      THPT Vĩnh Linh tiếp tục đạt thành tích xuất sắc tại cuộc thi NCKH dành cho học sinh trung học năm
+                      học 2017-2018 </a></h4>
+                  <div class="time-li"><i class="fa icon fa-calendar"></i>&nbsp;Ngày đăng:<span>17/06/2019</span></div>
+                </p>
+
+                <p class="list-news-one" itemscope="" itemtype="http://schema.org/NewsArticle">
+                  <h4 itemprop="headline"><i class="fa icon fa-arrow-right"></i> <a class="titlee" href="#"
+                      title="TRƯỜNG THPT VĨNH LINH VINH DỰ ĐÓN TIẾP  ĐOÀN CÁN BỘ, GIÁO VIÊN VÀ HỌC SINH SỞ GD TỈNH ROI-ET-VƯƠNG QUỐC THÁI LAN">TRƯỜNG
+                      THPT VĨNH LINH VINH DỰ ĐÓN TIẾP ĐOÀN CÁN BỘ, GIÁO VIÊN VÀ HỌC SINH SỞ GD TỈNH ROI-ET-VƯƠNG QUỐC
+                      THÁI LAN </a></h4>
+                  <div class="time-li"><i class="fa icon fa-calendar"></i>&nbsp;Ngày đăng:<span>17/06/2019</span></div>
+                </p>
+
+                <p class="list-news-one" itemscope="" itemtype="http://schema.org/NewsArticle">
+                  <h4 itemprop="headline"><i class="fa icon fa-arrow-right"></i> <a class="titlee" href="#"
+                      title="HỘI NGHỊ XÂY DỰNG KẾ HOẠCH NĂM HỌC 2017-2018">HỘI NGHỊ XÂY DỰNG KẾ HOẠCH NĂM HỌC 2017-2018
+                    </a></h4>
+                  <div class="time-li"><i class="fa icon fa-calendar"></i>&nbsp;Ngày đăng:<span>17/06/2019</span></div>
+                </p>
+
+                <p class="list-news-one" itemscope="" itemtype="http://schema.org/NewsArticle">
+                  <h4 itemprop="headline"><i class="fa icon fa-arrow-right"></i> <a class="titlee" href="#"
+                      title="Trường THPT Vĩnh Linh tổ chức thành công Hội thi văn hóa học đường cấp trường lần thứ nhất">Trường
+                      THPT Vĩnh Linh tổ chức thành công Hội thi văn hóa học đường cấp trường lần thứ nhất </a></h4>
+                  <div class="time-li"><i class="fa icon fa-calendar"></i>&nbsp;Ngày đăng:<span>17/06/2019</span></div>
+                </p>
+
+                <p class="list-news-one" itemscope="" itemtype="http://schema.org/NewsArticle">
+                  <h4 itemprop="headline"><i class="fa icon fa-arrow-right"></i> <a class="titlee" href="#"
+                      title="Đoàn trường THPT Vĩnh Linh tập huấn giáo dục kĩ năng sống">Đoàn trường THPT Vĩnh Linh tập
+                      huấn giáo dục kĩ năng sống </a></h4>
+                  <div class="time-li"><i class="fa icon fa-calendar"></i>&nbsp;Ngày đăng:<span>16/06/2019</span></div>
+                </p>
+
+              </marquee>
+            </div>
+
+          </div>
+
+          <div class="arcenter">
+
+            <div class="slideshow-container">
+              <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="picture/4flf.jpg" style="width:100%">
+                <div class="text">Ảnh Nổi Bật</div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="picture/2_fl.jpg" style="width:100%">
+                <div class="text">Ảnh Nổi Bật</div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="picture/3_f.jpg" style="width:100%">
+                <div class="text">Ảnh Nổi Bật</div>
+              </div>
+
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot2" onclick="currentSlide(2)"></span>
+              <span class="dot3" onclick="currentSlide(3)"></span>
+            </div>
+
+          </div>
+
+          <div class="arbot">
+            <hr />
+            <div id="donggop">
+              <div id="dgleft">
+                <h1>Bảng Vàng Đóng Góp</h1>
+                <div class="anhdg" align="justify">
+                  <img src="picture/donggopp.jpg" />
+                  <p><br /> <b>Ông: </b> Nguyễn Xuân Mai <br />
+                    <b>Cựu học sinh lớp:</b> 12D1<br />
+                    <b>Niên Khóa:</b> 1990 - 1993<br />
+                    <b>Đóng Góp:</b> Học Bổng trị giá 100 triệu
+                  </p>
+
+                </div>
+                <hr />
+                <div class="anhdg" align="justify">
+                  <img src="picture/donggopp.jpg" />
+                  <p><br /> <b>Ông: </b> Nguyễn Văn Tân <br />
+                    <b>Cựu học sinh lớp:</b> 12E2<br />
+                    <b>Niên Khóa:</b> 1987 - 1990<br />
+                    <b>Đóng Góp:</b> 5 chiếc xe máy cho 5 học sinh nghèo
+                  </p>
+                </div>
+                <hr />
+                <div class="anhdg" align="justify">
+                  <img src="picture/dggirl.png" />
+                  <p> <br /> <b>Bà: </b> Cao Thị tuyết Lan <br />
+                    <b>Cựu học sinh lớp:</b> 12C5<br />
+                    <b>Niên Khóa:</b> 1989 - 1992<br />
+                    <b>Đóng Góp:</b> Học Bổng Vượt Khó Trị Giá 30 triệu
+                  </p>
+                </div>
+                <hr />
+              </div>
+              <div id="dgright">
+                <h3 style="color: blue"><u>Liên Hệ Đóng Góp</u></h3>
+                <b>Trường THPT Vĩnh Linh</b><br />
+                - Địa chỉ: TT. Hồ Xá, Vĩnh Linh, Quảng Trị<br />
+                - Điện thoại: 0233 3820 565<br />
+                - Email: THPTVinhLinh@edu.com <br /> <br>
+
+                <b>Hiệu Trưởng:</b> Phan Thành Vũ<br />
+                - Điện Thoai: 0325 772 929<br />
+                - Email: PhanThanhVu@gmail.com <br /><br />
+
+                <b>Trưởng Ban Liên Lạc Hội Cựu Học Sinh</b><br />
+                - Điện Thoại: 0752 515 808 <br />
+                - Email: HSTHPTVinhLinh@gmail.com
+              </div>
+            </div>
+
+            <br />
+            <div class="container-full">
+              <article>
+                <div class="main-news">
+                  <h1 class="title-news"><a>ĐIỂM NHÌN</a></h1>
+                  <div class="main-newsleft">
+                    <ul>
+                      <li> <img src="picture/pin.png">
+                        <h2><a href="#" title="titleContent">Trường THPT Vĩnh Linh tổ chức Lễ Khai Giảng 2018/19</a>
+                        </h2>
+                        Sáng ngày 10/9/2019, Trường THPT Vĩnh Linh đã trang trọng tổ chức Lễ Khai Giảng năm học mới
+                        <br />2019 - 2020 tại...
+                      </li>
+                      <li> <img src="picture/pin.png">
+                        <h2><a href="#" title="titleContent">Trường THPT Vĩnh Linh tổ chức Lễ Tổng Kết 2018</a> </h2>
+                        Sáng ngày 20/7/2018, Trường THPT Vĩnh Linh đã trang trọng tổ chức Lễ Tổng Kết Năm 2018...
+                      </li>
+                      <li> <img src="picture/dia-dao-vinh-moc-trien-lam-01.jpg" width="150" height="90">
+                        <h2><a href="#" title="titleContent"> Học sinh trường THPT Vĩnh Linh tham quan địa đạo Vịnh
+                            Mốc</a></h2>
+                        Sáng ngày 10/9/2018, trường THPT Vĩnh Linh đã tổ chức cho học sinh khối 12 đi tham quan địa đạo
+                        Vịnh Mốc...
+                      </li>
+                    </ul>
+                    <!--Pagination-->
+                    <div class="pagination"> <a class="active" href="#">1</a> <a href="#">2</a> <a href="#">3</a> <a
+                        href="#">4</a> <a href="#">...</a> <a class="active" href="#">Next</a> </div>
+                    <br>
+                  </div>
+
+                </div>
+              </article>
+              <aside>
+                <div class="main-menu2">
+                  <div class="main-newsright">
+                    <br />
+                    <h1 class="notification"><a>THÔNG BÁO</a></h1>
+                    <ul>
+                      <li><img src="picture/pin.png">
+                        <h3><a href="#" title="title-notification">Tuyển sinh: hình thức thi tuyển sinh 2019</a></h3>
+                        <span class="date">13 - 05 - 2019</span>
+                      </li>
+                      <li><img src="picture/pin.png">
+                        <h3><a href="#" title="title-notification">Lịch thi tuyển sinh chính thức</a> </h3>
+                        <span class="date">20 - 06 - 2019</span>
+                      </li>
+                    </ul>
+                    <br />
+                    <div class="hotnews">
+                      <h1 class="hotnews1"><a style="color: blue">CÔNG VĂN</a></h1>
+                      <ul>
+                        <li><img src="picture/pin.png">
+                          <h3><a href="#" title="title-notification">Công văn chỉ đạo tuyến sinh của Sở GD_ĐT</a></h3>
+                          <span class="date">25 - 5 - 2019</span>
+                        </li>
+                        <li><img src="picture/pin.png">
+                          <h3><a href="#" title="title-notification">Công văn triển Khai công tác thi THPT QG</a> </h3>
+                          <span class="date">13 - 06 - 2019</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </aside>
+            </div>
+
+            <div class="col-main">
+              <h1 class="content-title_new">GÓC GIÁO VIÊN - HỌC SINH </h1>
+              <div class="list">
+                <div class="item">
+                  <a class="image" href="#"> <img src="picture/tamhon.jpg" align="left" width="200" height="130"> </a>
+                  <div class="info">
+                    <h3><a href="#" class="title">Tuyển tập truyện ngắn Sự giàu có tâm hồn</a></h3>
+                    <p class="time"> <span class="author">Cập nhật :</span>
+                      <span> 09-01-2019</span> </p>
+                    <p class="content">
+                      <span>Thư viện trân trọng giới thiệu cùng bạn&nbsp;đọc&nbsp;Tuyển tập truyện ngắn Sự giàu có tâm
+                        hồn (cô Nguyễn Thị Lệ&nbsp;Hà - Nguyên Tổ trưởng tổ Văn Học sưu tầm) </span>
+                    </p>
+                  </div>
+                </div>
+                <br />
+                <div class="item">
+                  <a class="image" href="#"> <img src="picture/lichSu.jpg" align="left" width="200" height="130"> </a>
+                  <div class="info">
+                    <h3><a href="#" class="title">Bài giới thiệu Sách Lịch sử Quảng Trị của thư viện - Kỷ niệm 71 năm
+                        ngày thành lập QĐND Việt Nam</a> </h3>
+                    <p class="time">
+                      <span class="author">Cập nhật :</span> <span> 22-2-2019</span> </p>
+                    <p class="content">
+                      <span>Bên cạnh việc trang bị những kiến thức cơ bản về lịch sử thế giới, lịch sử đất nước; môn
+                        lịch sử trong nhà trường còn cung cấp cho học sinh những hiểu biết cơ bản về lịch sử địa phương;
+                        Góp phần làm phong phú thêm tri thức và tình cảm của các em với vùng đất, con người nơi các em
+                        đang học tập, sinh sống.
+                      </span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr />
+          </div>
+
+          <img src="picture/qtam.png" width="100%" />
+        </article>
+      </div>
+    </div>
+
+    <footer>
+
+      <div id="page">
+        <h3>Page Facebook</h3>
+        <div class="fb-like"
+          data-href="https://www.facebook.com/Tr%C6%B0%E1%BB%9Dng-THPT-V%C4%A9nh-Linh-227930473932465/"
+          data-width="10px" data-layout="standard" data-action="like" data-size="small" data-show-faces="true"
+          data-share="true"></div>
+      </div>
+
+
+      <div id="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4093.64505942609!2d107.00476213980268!3d17.072934632275217!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4df9dd5493e531d8!2zVHLGsOG7nW5nIFRIUFQgVsSpbmggTGluaA!5e0!3m2!1svi!2s!4v1560524838151!5m2!1svi!2s"
+          width="350" height="150" frameborder="0" style="border:0; margin: 20px 0px 0px 0px" allowfullscreen></iframe>
+      </div>
+
+      <div id="diachi">
+        <b>Trường THPT Vĩnh Linh</b><br />
+        Địa chỉ: TT. Hồ Xá, Vĩnh Linh, Quảng Trị<br />
+        Điện thoại: 0233 3820 565<br />
+        Email: THPTVinhLinh@edu.com <br /> <br>
+      </div>
+
+      <div id="THPT"><b>Trường THPT Vĩnh Linh © 2019. All rights reserved.</b></div>
+
+    </footer>
+
+
+
+    <!--back top-->
+    <div id="back-top"> <a href="#"> <img src="picture/icons8-up-squared-30.png" /> </a> </div>
+    <script>
+      $(document).ready(function () {
+
+        // hide #back-top first
+        $("#back-top").hide();
+
+        // fade in #back-top
+        $(function () {
+          $(window).scroll(function () {
+            if ($(this).scrollTop() > 100) {
+              $('#back-top').fadeIn();
+            } else {
+              $('#back-top').fadeOut();
+            }
+          });
+
+          // scroll body to 0px on click
+          $('#back-top .fi-arrow-up').click(function () {
+            $('body,html').animate({
+              scrollTop: 0
+            }, 800);
+            return false;
+          });
+        });
+
+      });
+    </script>
+    <!--lich ngay thang-->
+    <script type="text/javascript">
+      function refrClock() {
+
+        var d = new Date();
+
+        var s = d.getSeconds();
+
+        var m = d.getMinutes();
+
+        var h = d.getHours();
+
+        var day = d.getDay();
+
+        var date = d.getDate();
+
+        var month = d.getMonth();
+
+        var year = d.getFullYear();
+
+        var days = new Array("Chủ nhật", "Thứ hai", "Thứ 3", "Thứ 4", "Thứ 5", "Thứ 6", "Thứ 7");
+
+        var months = new Array("1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12");
+
+        var am_pm;
+
+        if (s < 10) {
+          s = "0" + s
+        }
+
+        if (m < 10) {
+          m = "0" + m
+        }
+
+        if (h > 12)
+
+        {
+          h -= 12;
+          AM_PM = "PM"
+        } else {
+          AM_PM = "AM"
+        }
+
+        if (h < 10) {
+          h = "0" + h
+        }
+
+        document.getElementById("clock").innerHTML = days[day] + " Ngày " + date + "/" + months[month] + "/" + year +
+          "   " + " [" + h + ":" + m + ":" + s + "] " + AM_PM;
+        setTimeout("refrClock()", 1000);
+      }
+      refrClock();
+    </script>
+
+    <!--Slide Show-->
+    <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+          slideIndex = 1
+        }
+        if (n < 1) {
+          slideIndex = slides.length
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+      }
+    </script>
+
+  </div>
+</body>
+
+</html>
